@@ -1,0 +1,15 @@
+COLUMNS:
+  Score:        int64  
+  Nationality:  object 
+  Gender:       object 
+  Age:          int64  
+  Tenure:       int64  
+  Balance:      float64
+  Products:     int64  
+  Card:         int64  
+  Active:       int64  
+  Salary:       float64
+  Exited:       int64 
+
+TARGET_COLUMN:
+name: Exited
