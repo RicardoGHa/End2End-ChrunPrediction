@@ -1,0 +1,13 @@
+RandomForestClassifier:
+  n_estimators: 100           # Number of trees in the forest
+  criterion: "gini"           # Criterion for measuring split quality
+  max_depth: None             # Maximum depth of the tree
+  min_samples_split: 2        # Minimum number of samples required to split a node
+  min_samples_leaf: 1         # Minimum number of samples required to be at a leaf node
+  max_features: "auto"        # Number of features to consider for best split
+  bootstrap: True             # Whether to use bootstrap samples
+  oob_score: False            # Out-of-bag samples to estimate accuracy
+  random_state: 42            # Seed for random number generation
+  n_jobs: -1                  # Use all processors for parallelization
+  verbose: 0                  # Verbosity of output
+  warm_start: False           # Whether to reuse previous solutions and add more estimators
